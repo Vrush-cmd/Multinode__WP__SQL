@@ -6,3 +6,5 @@ Task 2
 📜 Configure master node and slave node seperately.
 📜 Launch a wordpress and mysql database connected to it in the respectine slaves. 
 📜 Expose the wordpress pod and client able hit the wordpress ip with its respective port.
+
+
