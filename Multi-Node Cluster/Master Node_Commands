@@ -46,3 +46,5 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 #Create the token so that worker node can join the master node
 kubeadm token create  --print-join-command
 
+#Setup the FLANNEL
+kubectl apply  -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
